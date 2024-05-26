@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscripcion</title>
+</head>
+<body>
+    <div>
+        <h1>DeDiCaTion</h1>
+        <p>Registrese en esta plataforma.</p>
+    </div>
+    <form action="https://formsubmit.co/etchebehereciro@gmail.com" method="post">
+        <label for="text">Nombre de Usuario</label>
+        <input type="text" required>
+        <br>
+        <label for="number">Edad</label>
+        <input type="number" max="105" min="12" required>
+        <br>
+        <label for="email">Correo Electronico</label>
+        <input type="email" required>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" minlength="8" required>
+        <br>
+        <div>
+         <label for="select">Nacionalidad</label>
+         <select name="Nacionalidad" id="pais" required>
+            <option value="Argentina">Argentina</option>
+            <option value="Peru">Peru</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="otro">otro</option>
+         </select>
+        </div> 
+         <br>
+         <label for="checkbox">Acepto las bases y condiciones</label>
+         <input type="checkbox" name="bases_y_condiciones" value="acepta" required>
+         <br>
+
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
